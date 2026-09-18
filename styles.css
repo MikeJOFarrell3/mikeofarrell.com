@@ -44,7 +44,7 @@ h2 { font-size:clamp(38px,5vw,68px); max-width:650px; }
 .card h3 { margin-top:14px; font-size:clamp(31px,4vw,50px); }
 .card p:not(.card-label) { color:var(--muted); max-width:650px; }
 .card a, .card > span { font-size:14px; font-weight:600; text-decoration:none; }
-.work-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+.work-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }
 .work-item { border-top:1px solid var(--ink); padding-top:22px; }
 .work-item h3 { font-size:28px; margin:16px 0 10px; }
 .work-item p { color:var(--muted); margin:0; }
