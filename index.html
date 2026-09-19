@@ -17,31 +17,114 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://mikeofarrell.com/#mike-ofarrell",
-    "name": "Mike O'Farrell",
-    "url": "https://mikeofarrell.com/",
-    "image": "https://mikeofarrell.com/mike-ofarrell-headshot.jpg",
-    "description": "Retail executive and commercial leader focused on physical retail, omnichannel commerce and measurement.",
-    "jobTitle": "Director, Commercial Strategy & Sales",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "EssilorLuxottica"
-    },
-    "alumniOf": {
-      "@type": "CollegeOrUniversity",
-      "name": "University of Pittsburgh"
-    },
-    "knowsAbout": [
-      "Retail strategy",
-      "Physical retail",
-      "Omnichannel commerce",
-      "Travel retail",
-      "Retail measurement",
-      "Sales leadership"
-    ],
-    "sameAs": [
-      "https://www.linkedin.com/in/mike-ofarrell/"
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://mikeofarrell.com/#website",
+        "url": "https://mikeofarrell.com/",
+        "name": "Mike O'Farrell",
+        "publisher": {
+          "@id": "https://mikeofarrell.com/#mike-ofarrell"
+        }
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://mikeofarrell.com/#profile",
+        "url": "https://mikeofarrell.com/",
+        "name": "Mike O'Farrell | Director, Commercial Strategy & Sales, EssilorLuxottica",
+        "description": "Official profile of Mike O'Farrell, Director, Commercial Strategy & Sales at EssilorLuxottica, focused on retail growth, omnichannel commerce and physical retail measurement.",
+        "isPartOf": {
+          "@id": "https://mikeofarrell.com/#website"
+        },
+        "mainEntity": {
+          "@id": "https://mikeofarrell.com/#mike-ofarrell"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://mikeofarrell.com/#headshot"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://mikeofarrell.com/#mike-ofarrell",
+        "name": "Mike O'Farrell",
+        "url": "https://mikeofarrell.com/",
+        "image": {
+          "@id": "https://mikeofarrell.com/#headshot"
+        },
+        "description": "Retail executive and commercial leader focused on retail growth, omnichannel commerce, commercial strategy and measurement.",
+        "disambiguatingDescription": "Director, Commercial Strategy & Sales at EssilorLuxottica and former Bose retail executive focused on omnichannel commerce, travel retail and physical retail measurement.",
+        "jobTitle": "Director, Commercial Strategy & Sales",
+        "worksFor": {
+          "@type": "Organization",
+          "@id": "https://www.essilorluxottica.com/#organization",
+          "name": "EssilorLuxottica",
+          "url": "https://www.essilorluxottica.com/"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "@id": "https://www.pitt.edu/#organization",
+          "name": "University of Pittsburgh",
+          "url": "https://www.pitt.edu/"
+        },
+        "knowsAbout": [
+          "Commercial strategy",
+          "Sales leadership",
+          "Retail growth",
+          "Retail strategy",
+          "Physical retail",
+          "Omnichannel commerce",
+          "Travel retail",
+          "Retail measurement",
+          "Consumer behavior",
+          "Strategic partnerships"
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/mike-ofarrell/"
+        ],
+        "subjectOf": [
+          {
+            "@id": "https://mikeofarrell.com/#real-retail-2"
+          },
+          {
+            "@id": "https://mikeofarrell.com/#real-retail-1"
+          }
+        ]
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://mikeofarrell.com/#headshot",
+        "url": "https://mikeofarrell.com/mike-ofarrell-headshot.jpg",
+        "contentUrl": "https://mikeofarrell.com/mike-ofarrell-headshot.jpg",
+        "caption": "Mike O'Farrell"
+      },
+      {
+        "@type": "Article",
+        "@id": "https://mikeofarrell.com/#real-retail-2",
+        "headline": "Real Retail #2: We're Measuring What's Easy. Not What Matters.",
+        "url": "https://www.linkedin.com/pulse/real-retail-2-were-measuring-whats-easy-what-matters-mike-o-farrell-ehiic/",
+        "author": {
+          "@id": "https://mikeofarrell.com/#mike-ofarrell"
+        },
+        "about": [
+          "Retail measurement",
+          "Physical retail",
+          "Consumer behavior"
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://mikeofarrell.com/#real-retail-1",
+        "headline": "Real Retail: The Truth About Commerce in America",
+        "url": "https://www.linkedin.com/pulse/real-retail-truth-commerce-america-mike-o-farrell-ppg3e/",
+        "author": {
+          "@id": "https://mikeofarrell.com/#mike-ofarrell"
+        },
+        "about": [
+          "Physical retail",
+          "Omnichannel commerce",
+          "Retail investment"
+        ]
+      }
     ]
   }
   </script>
