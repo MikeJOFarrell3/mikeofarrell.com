@@ -70,3 +70,5 @@ footer { border-top:1px solid var(--line); padding-top:28px; padding-bottom:45px
   .section { padding:70px 0; }
   footer { flex-direction:column; gap:8px; }
 }
+
+.page-hero{padding-top:90px}.page-title{font-size:clamp(48px,7vw,88px);max-width:900px}.article-copy{max-width:780px;margin-top:52px}.article-copy p{margin:0 0 24px}.article-copy a:not(.button){font-weight:600}
